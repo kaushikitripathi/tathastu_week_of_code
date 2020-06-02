@@ -1,0 +1,7 @@
+n=int(input("enter the number of elements in tuple"))
+t=[]
+for i in range(n):
+    t.append(input())
+T=tuple(t)    
+e=input("enter the element whose occurence is to be found")
+print(T.count(e))
