@@ -1,0 +1,16 @@
+n=int(input("enter the number of elements in dictionary"))
+d={}
+l=[]
+for i in range(n):
+    key=input()
+    value=input()
+    l.append(value)
+    print(key,":",value)
+    
+print(l)
+m=max(l)
+print("maximum value is:")
+print(m)
+l.remove(m)
+print("second maximum value is:")
+print(max(l))
