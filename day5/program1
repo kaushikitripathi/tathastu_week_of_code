@@ -1,0 +1,9 @@
+def replace(s):
+    l=str(s)
+    for i in l:
+        if(i=="0"):
+            i="5"
+    return int(l)
+
+s=int(input("enter the number"))
+print("after replacing", replace(s))           
