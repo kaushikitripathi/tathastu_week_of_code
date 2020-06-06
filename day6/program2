@@ -1,0 +1,17 @@
+#sort  list of 0 and 1 only in non decreasing
+l=[]
+m=[]
+p=[]
+n=int(input("enter the elements"))
+for i in range(n):
+    l.append(input())
+print(l)    
+for i in l:
+    if(i=="0"):
+        m.append(i)
+    else:
+        p.append(i)
+print(m)
+print(p)
+print("non decreasing order is:",m+p)
+        
